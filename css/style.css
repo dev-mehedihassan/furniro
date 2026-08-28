@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+ul, ol, dl{
+    list-style-type: none;
+}
+a, a:hover{
+    display: inline-block;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p{
+    line-height: 1.4;
+}
+
+/* ====== Navbar Section Style Start ====== */
+.navbar{
+    padding: 30px 0;
+}
+.navbar-nav{
+    column-gap: 75px;
+}
+.navbar-nav .nav-item .nav-link{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    transition: all linear 0.3s;
+}
+.navbar-nav .nav-item .nav-link:hover{
+    color: #B88E2F;
+}
+.nav_actions{
+    display: flex;
+    align-items: center;
+    column-gap: 45px;
+}
+.nav_actions i{
+    font-size: 22px;
+    color: #000000;
+    transition: all linear 0.3s;
+}
+.nav_actions i:hover{
+    color: #B88E2F;
+}
+/* ====== Navbar Section Style End ====== */
