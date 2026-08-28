@@ -54,9 +54,7 @@ h1, h2, h3, h4, h5, h6, p{
     background-repeat: no-repeat;
     background-size: cover;
     padding: 150px 0;
-    min-height: 716px;
-    display: flex;
-    align-items: center;
+    height: 716px;
 }
 
 .bannerContent {
@@ -109,3 +107,56 @@ h1, h2, h3, h4, h5, h6, p{
     color: #B88E2F;
 }
 /* ====== Banner Section Style End ====== */
+
+/* ====== Browse Section Style Start ====== */
+#browse {
+    padding: 56px 0;
+}
+
+.browse_title {
+    margin-bottom: 62px;
+}
+
+.browse_title h2 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    color: #333333;
+}
+
+.browse_title p {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: #666666;
+}
+
+.browse_item {
+    text-align: center;
+}
+
+.browse_img {
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.browse_img img {
+    width: 100%;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 10px;
+    transition: all linear 0.3s;
+}
+
+.browse_item:hover .browse_img img {
+    transform: scale(1.03);
+}
+
+.browse_item h3 {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    color: #333333;
+}
+/* ====== Browse Section Style End ====== */
