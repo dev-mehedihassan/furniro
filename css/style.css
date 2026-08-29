@@ -392,7 +392,6 @@ h1, h2, h3, h4, h5, h6, p{
     font-size: 16px;
     line-height: 1.5;
     color: #616161;
-    display: block;
     margin-bottom: 8px;
 }
 
@@ -476,3 +475,83 @@ h1, h2, h3, h4, h5, h6, p{
     outline-offset: 8px;
 }
 /* ====== Inspiration Section Style End ====== */
+
+/* ====== Share Setup Section Style Start ====== */
+#share_setup {
+    padding: 50px 0;
+    overflow: hidden;
+    width: 100%;
+}
+
+.setup_gallery {
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+    width: 100%;
+}
+
+.setup_title span {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #616161;
+}
+
+.setup_title h2 {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 1.2;
+    color: #3A3A3A;
+    margin-top: 8px;
+}
+
+.gallery_item {
+    overflow: hidden;
+}
+
+.gallery_item img {
+    width: 100%;
+    object-fit: cover;
+    transition: all linear 0.3s;
+}
+
+.gallery_item img:hover {
+    transform: scale(1.03);
+}
+
+.gallery_img_1 {
+    height: 382px;
+}
+
+.gallery_img_2 {
+    height: 323px;
+}
+
+.gallery_img_3 {
+    height: 312px;
+}
+
+.gallery_img_4 {
+    height: 242px;
+}
+
+.gallery_img_center {
+    height: 392px;
+}
+
+.gallery_img_6 {
+    height: 348px;
+}
+
+.gallery_img_7 {
+    height: 242px;
+}
+
+.gallery_img_8 {
+    height: 433px;
+}
+
+.gallery_img_9 {
+    height: 196px;
+}
+
+/* ====== Share Setup Section Style End ====== */
